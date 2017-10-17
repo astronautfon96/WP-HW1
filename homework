@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title>Forms</title>
+<body>
+  <h1>使用者註冊</h1>
+  <p><label>賬號 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+    <input  placeholder ="請輸入你的賬號" type="text" size="25"
+    maxlength="30" >
+  </label></p>
+  <p><label>密碼 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+    <input placeholder ="請輸入你的密碼" type="text" size="25"
+    maxlength="30">
+  </label></p>
+  <p><label>電子郵件:
+    <input placeholder ="請輸入你的電子郵件" type="text" size="25"
+    maxlength="30">
+  </label></p>
+  <p><label>生日 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+    <input placeholder ="年/月/日" type="text" size="25"
+    maxlength="30">
+  </label></p>
+
+  <form>
+    <p><label>性別 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+    <input type="radio" name="gender" value="男" checked>男
+    <input type="radio" name="gender" value="女" checked>女
+    <input type="radio" name="gender" value="男" checked>其他
+</form>
+  <form>
+    <p><label>喜好 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+      <input type="checkbox" name="vehicle1" value="打球" >打球
+      <input type="checkbox" name="vehicle1" value="打電動" >打電動
+      <input type="checkbox" name="vehicle1" value="購物" >購物
+      <input type="checkbox" name="vehicle1" value="其他" >其他
+</form>
+<form>
+  <p><label for="txtlist">年級 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+    <input type ="text" id="txtlist"
+    placeholder="年級"list="年"/>
+    <datalist id="年級">
+      <option value="大一">
+        <option value="大二">
+          <option value="大三">
+            <option value="大四">
+      </datalist>
+    </p></label>
+    <p><input type = "submit" value = "送出" />
+        <input type = "reset" value = "重設" />
+</p>
+</form>
+    </body>
+  </html>
